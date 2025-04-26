@@ -1,0 +1,107 @@
+Operating System Interview Topics:
+
+Part - 1:
+
+1. What is OS?
+2. What are it's functions and also state the advantages of OS? 
+3. What are the different types of OS? What are the goals of OS?
+4. What is a Program, Process and Thread? 
+5. What is the difference between Multi-tasking and Multi-threading?
+6. What is the difference between Thread and Process Context Switching?
+7. What are the components of OS - User space and Kernel space.
+8. What is Kernel and what are it's functions?
+9. Study about Spooling, Buffering and Caching in I/O Management.
+10. What are types of Kernels - Monolithic, Micro, Hybrid and Nano/Exo Kernel.
+11. How does communication takes place between User mode and Kernel mode? (i.e. Through IPC - Shared Memory and Message Passing)
+12. What is a System Call? What is SCI? 
+13. What are the different types if System Calls? 
+14. What happens when you turn on your computer?
+15. What are the advantages of 64-bit OS over 32-bit OS?
+16. What are the different types of memory/storage present in the computer system and compare each of them? 
+17. Steps involved in creation of Process. 
+18. Study the Architecture and Attributes of a Process.
+19. What is PCB and what is it's structure?
+20. What are the different States and Queues of Process?
+21. What is degree of Multi-programming?
+22. What is LTS, STS and MTS?
+23. What is Swapping, Context-Switching, Orphan Process and Zombie/Defunct Process?
+24. What is the limit of entries in a Process table for different types of OS?
+25. What is Process Scheduling and what is a CPU Scheduler? 
+26. What are the different types of Process scheduling - Non-preemptive and Preemptive Scheduling and compare both of them?
+27. What are the goals of Process Scheduling?
+28. Study these parameters - Throughput, AT, BT, TAT, WT, RT and CT. (where, TAT = CT - AT and WT = TAT - BT)
+29. Study these types of CPU Scheduling - FCFS, SJF (Non-preemptive and Preemptive) , PS (Non-preemptive and Preemptive), Round-Robin Scheduling.
+30. Study the Gantt Chart for all the different types of CPU Scheduling.
+31. Solution to Indefinite waiting in Preemptive PS - Ageing (Gradually increase the priority of lowest priority job).
+32. What is Convoy Effect and Process Starvation?
+33. Study about Multi-level queue scheduling (MLQ) and Multi-level feedback queue scheduling (MLFQ). (Implemented in Real life)
+34. Compare all the different types of CPU Schedulings.
+
+
+
+Part - 2:
+
+1. What is Concurrency?
+2. Study about Thread, Thread cheduling, Thread Context-switching, TCB and benifits of Multi-threading.
+3. What is Critical Section?
+4. What is Race Condition and study the solution to Race Condition?
+5. Study about Peterson's Solution, Mutex/Locks, Conditional variable and Semaphores.
+6. Study the two different types of Semaphores - Binary Semaphore (Mutex) and Counting Semaphore.
+7. Study the disadvantages of Locks.
+8. Study about the Producer-Consumer Problem, Read-Write Problem and Dining Philosophers Problem.
+9. What is Deadlock?
+10. How does a Process/Thread utilize a resource - Request, Use and Release?
+11. What are the necessary Deadlock conditions?
+12. Study the methods for handling Deadlocks - Deadlock Prevention (Condn. != 4), Deadlock Avoidance (i.e. Using BA), Deadlock Detect-Recover and Ostrich Algorithm (i.e. Ignore Deadlock).
+13. What is Banker's Algorithm? (Method of Deadlock Avoidance)
+14. What are the methods of Deadlock detection and study about the recovery of Deadlock.
+15. Solve LC Problems on Concurrency - LC-1114, LC-1195 and LC-1226.
+16. What are the Memory Management Techniques? 
+17. What is Logical Address Space, Physical Address Space and MMU? 
+18. How OS manages the isolation and protect?
+19. What is Address Translation? (Note: To Calculate Actual Physical Add. = Base Add. at RAM + Logical Add. (Offset))
+20. What are the types of Allocation Methods on Physical Memory - Contiguous Allocation and Non-contiguous Allocation?
+21. Study the different types of Contiguous Memory Allocation - Fixed Partitioning and Dynamic Partitioning.
+22. What is External Fragmentation and Internal Fragmentation?
+23. What is Defragmentation/Compaction?
+24. How free space is stored/represented in OS?  (i.e. Using Linked-List data structure)
+25. How to satisfy a request of a of n size from a list of free holes?
+26. Study the different types of Non-Contiguous Memory Allocation - Paging and Segmentation.
+27. How Paging avoids external fragmentation?  Why paging is slow and how do we make it fast?
+28. What is Translation Look-aside buffer (TLB) and What is Page Table?
+29. What is Address space identifier (ASIDs) 
+30. What is Virtual Memory, Swap Space and state it's advantages and disadvantages?
+31. What is Swapper, Lazy Swapper, Pager, Demand Paging, Pure Demand Paging and Page Faults?
+32. Study the procedure to handle the Page Fault.
+33. What are the different types of Page Replacement Algorithms - FIFO, Optimal Page Replacement, LRU (Counter and Stack based) and Counting-based Page Replacement (LFU and MFU) .
+34. What is Thrashing?
+35. What are the techniques to handle Thrashing - Working Set Model and Page Fault frequency?
+36. Study about Storage Management - Files and Directories?
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+ 
+Operating System Most Asked Interview Questions (Links):
+
+1. Operating System Interview Questions - GFG: https://www.geeksforgeeks.org/operating-systems-interview-questions
+2. Operating System Interview Questions - InterviewBit: https://www.interviewbit.com/operating-system-interview-questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
