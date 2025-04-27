@@ -12,7 +12,7 @@ Part - 1:
 8. What is Kernel and what are it's functions?
 9. Study about Spooling, Buffering and Caching in I/O Management.
 10. What are types of Kernels - Monolithic, Micro, Hybrid and Nano/Exo Kernel.
-11. How does communication takes place between User mode and Kernel mode? (i.e. Through IPC - Shared Memory and Message Passing)
+11. How does communication takes place between User mode and Kernel mode? (Also Study about IPC - Shared Memory and Message Passing)
 12. What is a System Call? What is SCI? 
 13. What are the different types if System Calls? 
 14. What happens when you turn on your computer?
