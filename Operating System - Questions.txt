@@ -42,7 +42,7 @@ Part - 1:
 Part - 2:
 
 1. What is Concurrency?
-2. Study about Thread, Thread cheduling, Thread Context-switching, TCB and benifits of Multi-threading.
+2. Study about Thread, Thread Scheduling, Thread Context-switching, TCB and benifits of Multi-threading.
 3. What is Critical Section?
 4. What is Race Condition and study the solution to Race Condition?
 5. Study about Peterson's Solution, Mutex/Locks, Conditional variable and Semaphores.
