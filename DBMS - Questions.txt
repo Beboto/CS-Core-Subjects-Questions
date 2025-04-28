@@ -1,0 +1,92 @@
+DBMS Interview Topics:
+
+Part - 1:
+
+1. What is Data and what are the types of data - Qualitative and Quantitative?
+2. What is Information?
+3. Difference between Data and Information.
+4. What is Database and DBMS?
+5. State the advantages of DBMS.
+6. DBMS Architecture: Three Schemas - Physical/Internal, Logical/Conceptual, View/External Level Schema.
+7. What are Data Models - ER, Relational, Object-Oriented and Object-Relational.
+8. What are Database Languages - DDL and DML?
+9. How is Database accessed from Application programs - ODBC and JDBC?
+10. What is  Database Administrator (DBA)?
+11. What are  DBMS Application Architectures - T1, T2 and T3?
+12. What is  Entity-Relationship Model and what is an ER Diagram?
+13. What is Data Model, Entity, Entity-Set and Attributes?
+14. What are the types of Entities - Strong and Weak?
+15. What are the types of Attributes - Simple, Composite, Single-valued, Multi-valued, Derived and NULL value?
+16. What is Relationships and what are it's types - Association, Strong and Weak?
+17. What are the different types of Degree of Relationships?
+18. What are Relationships Constraints - Mapping Cardinality/Cardinality Ratio and Participation Constraints?
+19. What are the types of Mapping Cardinality - One-to-one, One-to-Many, Many-to-One and Many-to-Many?
+20. What are the types of Participation Constraints - Partial and Total Participation? 
+21. Study the ER Notations and Symbols used in ER Diagram.
+22. What are the Extended ER Features - Specialisation and Generalisation?
+23. What is Attribute Inheritance, Participation Inheritance and Aggregation?
+24. Study the steps to make an ER diagram. (Identify Entity Sets, Attributes and it's types, Relationship Constraints (Both Mapping and Participation))
+25. Study the ER Diagram of Banking System, Online Delivery System, University and Facebook.
+26. What is a Relational Model?
+27. What is a Table, Tuple and Column?
+28. What is the Degree of Table, Cardinality and what are the important properties of Table in Relational Model?
+29. What are Relational Model Keys - Super Key, Candidate Key, Primary Key, Foreign Key, Alternate Key, Composite Key, Compound Key and Surrogate Key?
+30. Can Foreign Key be NULL? (i.e. Yes - ON DELETE NULL)
+31. What are Integrity Constraints - Domain Constraints, Entity Constraints, Referential Constraints and Key Constraints?
+32. Transformation of ER Model to Relational Model.
+
+
+
+Part - 2:
+
+1. Study all SQL Commands.
+2. What is Functional Dependency and it's types - Trivial and Non-trivial FD?
+3. What are the rules of Functional Dependency - Reflexive, Augmentative and Transitive?
+4. What happens if we have Redundant Data? 
+5. What are Anomalies - Insertion, Deletion and Updation/Modification?
+6. What is Normalisation and it's types - 1NF, 2NF, 3NF and BCNF? 
+7. What is Single Responsibility Principle (SRP)?
+8. What are the advantages of Normalisation?
+9. What is Transaction and what are the Transaction States?
+10. What are ACID Properties - Atomicity, Consistency, Insolation and Durability?
+11. What are the Recovery Mechanisms to implement Atomicity and Durability - Shadow Copy Scheme and Log-Based Recovery Methods (Deferred and Immediate DB Modifications)?
+12. What is Indexing in DBMS?
+13. What does an Index File contains - Search Key (Key) and Data Reference (value)?
+14. What are the types of Indexing - Primary (Clustering and Sorted) Indexing and Secondary Indexing (Non-Clustering and Not-Sorted?
+15. What is Sparse Index (Applied when Index File sorted based on PK/CK Attribute) and Dense Index (Applied when Index File sorted based on Non-key Attribute - Ex: Group By Dept.)?
+16. What is Multi-Level Indexing?
+17. What are NoSQL Databases and what are it's advantages and disadvantages?
+18. Study about the Data Modelling in SQL vs NoSQL Databases.
+19. What is the difference between Vertical (Scale-Up) and Horizontal (Scale-Out) Scaling?
+20. Why is Horizontal Scaling not a practical option in SQL Databases? (It is very slow and costly, due to the application of Joins on different Tables)
+21. When to use NoSQL Databases and what are the misconceptions of NoSQL?
+22. What are the types of NoSQL Data Models - Key-Value, Column Oriented (C-Stores) , Object Oriented, Document Based and Graph Based?
+23. What is the differnece between SQL and NoSQL databases?
+24. What is Data Access Object Pattern (DAO)?
+25. What are the types of Databases - Relational Databases, Object Oriented Databases, NoSQL Databases, Hierarchical Databases and Network Databases?
+26. What is Clustering in DBMS and what are it's advanatges - Data Redundency, Load Balancing and High Availability?
+27. How does Clustering Work and what is CDN?
+28. What is Partitioning (Scale-Out Technique) and what are the types of Partitioning - Horizontal and Vertical?
+29. When Partioning is Applied and what are it's advantages?
+30. What is Sharding and what are the types of Sharding - Horizontal and Vertical?
+31. What is the use of Routing Layer in Sharding?
+32. What are the advantages and disadvantages of Sharding?
+33. What are Distributed Databases?
+34. What is CAP Theorem - Consistency, Availability and Partition Tolerance?
+35. What are the CAP Theorem NoSQL Databases - CA, CP and AP Databases?
+36. Study about ACID Properties (Banking System) and BASE Properties (Social Networking System).
+37. What are SOLID Principles?
+38. Study about Master-Slave Database Architecture Concept and it's advantages. (Note: Master - Performs only Write Operations and Slave (Replica-Sets) - Performs only Read Operations) 
+39. How does Replication happens in Master-Slave Database Architecture - Asynchronous (Ex: Social Media App) and Synchronous (Ex: Banking App)?
+40. What happens if Slave gets the 'Update' query - Ignore or Allow and Propagate to Master?
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+ 
+DBMS Most Asked Interview Questions (Links):
+
+1. DBMS Interview Questions (2025) - GFG: https://www.geeksforgeeks.org/commonly-asked-dbms-interview-questions
+2. DBMS Interview Questions - InterviewBit: https://www.interviewbit.com/dbms-interview-questions
+
+
+
