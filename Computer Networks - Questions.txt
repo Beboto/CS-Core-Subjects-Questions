@@ -41,7 +41,7 @@ Part - 1:
     - Gateway  : Passage to connect two networks.
     - Brouter  : Combination of Bridges and Routers.
 
-24. Study about these protocols - TCP/IP (HTTP, DHCP, FTP, SMTP, POP3 & IMAC, SSH, VNC) , Telnet (Port: 23) and UDP.
+24. Study about these protocols - TCP/IP (HTTP, DHCP, FTP, SMTP, POP3 & IMAP, SSH, VNC) , Telnet (Port: 23) and UDP.
 25. What are Sockets and Ports (Ephemeral ports)? (Note: Socket is one endpoint of a two way communication link between two programs running on the network and also has PORT numbers)
 26. What is HTTP (Stateless Protocol - Server doesn't store any info. about Client by default) and how does it works and how HTTP uses TCP?
 27. Study about the HTTP Methods - GET, POST, PUT, PATCH and DELETE.
