@@ -1,0 +1,127 @@
+C++ Questions:
+
+1. How C++ program executes, study about all the steps or phases involved.
+2. Entry point of C++ Program.
+3. Where is the definition of class stored?
+4. Types of Memory.
+5. Global and Static storage.
+6. C++ Keywords.
+7. Similar concept like 'superkey' in java.
+8. Study about '*' and '->' pointer.
+9. Compilation and Runtime error.
+10. Exception handling keywords.
+11. Types of Exceptions.
+12. Study about 'malloc', 'calloc' and 'realloc'. 
+13. How to create and sync thread in C++?
+14. Study about void pointer.
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+OOPS Interview Topics:
+
+Part - 1:
+
+1. What is OOPs? Why do we need it and state it's advantages?
+2. What is a class? 
+3. What is an object? 
+4. How much memory is allocated to an empty class object?
+5. What are Access Modifiers - Public, Private and Protected?
+6. How to access data members and functions of a class from object (i.e. dot operator) ?
+7. Getters and Setters to access private data members of a class. (Can be used to give access to certain members by passing password and along with value)
+8. What happens exactly when you create an object? (Ex: Static Allocation: Hero h;  --> where, Hero is a class)
+9. Study about Padding and Greedy Alignment. (At the time of object creation)
+10. Static and Dynamic Allocation of an object. (Dynamic Allocation: Hero *h = new Hero; )
+11. To access data members after dynamic allocation of object --> (*h).level  or, h->level (Use arrow operator, so that you no need to dereference and then use dot operator)
+12. Behind the scenes after creating an object. What is a constructor?
+13. Types of Constructors - Default (Non-Parameterized), Parameterized and Copy Constructor?
+14. If one object is created both statically and dynamically, then 2 times the same default constructor is called.
+15. Once we write our own constructors may be of any type, then the inbuilt default constructor is overrided. 
+16. What is "this" keyword? (Stores the address of the current object --> Pointer to current object)
+17. Copy Constructor - Inbuilt Copy constructor while creating an object or Custom Copy constructor created by user in class (Note: Pass by reference while creating).
+18. Deep and Shallow Copy - For Copy Constructor. (Note: Shallow copy (Default CC) -> same memory is accessed, Deep copy (Custom CC) -> create a new array of different address)
+19. Copy Assignment Operator (Ex: Hero a; Hero b;  -->  a = b; )
+20. What is a Destructor? (Called automatically for Static allocated objects and for Dynamic allocated objects call manually using (Delete b; where, 'b' is a object)
+21. 'Const' Keyword. How do we use it in object creation? How to create const functions and also use it in data members?
+22. Study about Initialization List.
+23. What is 'static' Keyword? (Creates a data members and functions which belongs to class but no need to create an object of that class to access those data members and functions)
+24. Syntax to access 'static' data members and functions --> datatype className :: fieldName = value; (Note: static functions don't have 'this' keyword and can only access static members)
+
+
+
+Part - 2:
+
+1. What are the 4 pillars of OOPS?
+2. What is Encapsulation? (Also known as: Information hiding or Data hiding)
+3. What is a fully-encapsulated class? (i.e. where all data members and functions are private)
+4. What are the advantages of Encapsulation?
+5. What is Inheritance? 
+6. What are the different modes of Inheritance - Public, Private, Protected? (Ex: class childClassName : mode parentClassName)
+7. What are all the different types of Inheritance - Single, Multi-level, Multiple, Hierarchical, Hybrid Inheritance? What are it's advantages and why are we doing it?
+8. What is a Super-class and a Sub-class?
+9. What is Inheritance Ambiguity? (During multiple inheritance, when both class have a function with exact same name, then it can be solved using scope-resolution operator)
+10. What is Polymorphism?
+11. What are the two types of Polymorphism - Compile-time (Static) and Run-time (Dynamic) Polymorphism?
+12. What is Method/Function Overloading, Operator Overloading and Method/Function Overriding?
+13. Syntax of Operator overloading: return-type operator+ (i/p argurments){}  --> in arguments: first one is 'this' or current object and second one is 'i/p' argument
+
+    Ex. Syntax: void operator+ (B &obj){           --> In main: B obj1, obj2;  obj1.a = 2, obj2.a = 3;  obj1 + obj2; 
+		     int val1 = this->a;
+		     int val2 = obj.b;
+                     cout << (val2 - val1);
+                }
+
+    Ex. Syntax: void operator() (){               --> In main: B obj1;  obj1();
+		     cout << "Hello" << this->a;
+                }
+                     
+14. When is Function Overriding used?
+15. What is Abstraction? (Also known as: Implementation hiding)
+16. What are the advantages of Abstraction?
+17. What are Interfaces, Friend Function and Virtual Function?
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+OOPS Most Asked Interview Questions (Links):
+
+1. C++ Interview Questions and Answers (2025) - GFG: https://www.geeksforgeeks.org/cpp-interview-questions
+2. C++ Interview Questions - InterviewBit: https://www.interviewbit.com/cpp-interview-questions
+3. 30 OOPs Interview Questions and Answers (2025) - GFG: https://www.geeksforgeeks.org/oops-interview-questions
+4. OOPs Interview Questions - InterviewBit: https://www.interviewbit.com/oops-interview-questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
