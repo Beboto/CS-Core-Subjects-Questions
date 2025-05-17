@@ -36,7 +36,7 @@ Part - 1:
 12. Behind the scenes after creating an object. What is a constructor?
 13. Types of Constructors - Default (Non-Parameterized), Parameterized and Copy Constructor?
 14. If one object is created both statically and dynamically, then 2 times the same default constructor is called.
-15. Once we write our own constructors may be any of any type, then the inbuilt default constructor is overrided. 
+15. Once we write our own constructors may be of any type, then the inbuilt default constructor is overrided. 
 16. What is "this" keyword? (Stores the address of the current object --> Pointer to current object)
 17. Copy Constructor - Inbuilt Copy constructor while creating an object or Custom Copy constructor created by user in class (Note: Pass by reference while creating).
 18. Deep and Shallow Copy - For Copy Constructor. (Note: Shallow copy (Default CC) -> same memory is accessed, Deep copy (Custom CC) -> create a new array of different address)
