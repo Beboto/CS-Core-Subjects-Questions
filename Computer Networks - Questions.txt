@@ -108,7 +108,7 @@ Part - 2:
 32. What are Middle Boxes - Firewall (State-less and State-full)? (Note: Some Middle Boxes operates in Network Layer but also exists Transport Layer) 
 33. Study the working of Network Address Translation (NAT), it's types and it's real-world applications.
 34. What is the role of Data-link Layer - study in depth?
-35. What is a Data-link Layer Address (Also known as, MAC Address - 48 bits) and ARP (Address Resolution Address) Cache?
+35. What is a Data-link Layer Address (Also known as, MAC Address - 48 bits) and ARP (Address Resolution Protocol) Cache?
 36. How does a Frame look like - Header, Data (Payload) and Trailer?
     - Header  : Source MAC Address (6 bytes), Destination MAC Address (6 bytes) and Type/Length (2 bytes)
     - Trailer : Control and Error Check (FCS - 4 bytes)
