@@ -92,7 +92,7 @@ Part - 2:
     - E: (240.0.0.0) to (255.255.255.255)
 
 26. What is Subnet Masking? (Note: IP 192.0.1.0/24 - It means first 24 bits are Subnet and remaining are 8 bits --> (192.0.1.0) to (192.0.1.255) i.e. Total 2^8 = 256 Addresses)
-27. What are Reserved Addresses? (Note: IP 127.0.0.0 - Reserved loopback address in the IPv4 protocol also known as 'localhost') 
+27. What are Reserved Addresses? (Note: IP 127.0.0.1 - Reserved loopback address in the IPv4 protocol also known as 'localhost') 
 28. How does a Packet look like - Header (20 bytes) and Remaining bytes Data.
 29. Study all the contents of IPv4 Datagram format given below in depth.
     - Version (4 bits)                  :   Header Length (4 bits)  :   Type of Service (TOS - 8 bits)  :   Total Length: (16 bits)
