@@ -32,7 +32,7 @@ Part - 1:
 8. What happens exactly when you create an object? (Ex: Static Allocation: Hero h;  --> where, Hero is a class)
 9. Study about Padding and Greedy Alignment. (At the time of object creation)
 10. Static and Dynamic Allocation of an object. (Dynamic Allocation: Hero *h = new Hero; )
-11. To access data members after dynamic allocation of object --> (*h).level  or, h-> level (Use arrow operator, so that you no need to dereference and then use dot operator)
+11. To access data members after dynamic allocation of object --> (*h).level  or, h->level (Use arrow operator, so that you no need to dereference and then use dot operator)
 12. Behind the scenes after creating an object. What is a constructor?
 13. Types of Constructors - Default (Non-Parameterized), Parameterized and Copy Constructor?
 14. If one object is created both statically and dynamically, then 2 times the same default constructor is called.
