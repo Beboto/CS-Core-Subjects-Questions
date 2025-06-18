@@ -1,4 +1,29 @@
-C++ Questions:
+C Interview Questions:
+
+1. What are the features of the c programming language?
+2. Mention the dynamic memory allocation functions
+3. What is the use of pointer variables in c programming and what do u mean by dangling pointer variable? 
+4. What is the use of break control statements?
+5. what is a predefined function in c?
+6. What is the use of header files in c?
+7. What is a memory leak?
+8. Differentiate between call by value and call by reference.
+9. What is the difference between a compiler and an interpreter?
+10. What is typecasting?
+11. What is the use of the size of an operator in c?
+12. What is a struct and union?
+13. What is a recursion?
+14. What are macros in c?
+15. Write the difference between macros and functions.
+16. Study about the memory allocation in C - Static and Dynamic.
+17. Tokens in C.
+18. Explain: malloc(), malloc().
+19. Difference between Local and Global variables.
+20. Preprocessor in C
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+C++ Interview Questions:
 
 1. How C++ program executes, study about all the steps or phases involved.
 2. Entry point of C++ Program.
@@ -14,6 +39,8 @@ C++ Questions:
 12. Study about 'malloc', 'calloc' and 'realloc'. 
 13. How to create and sync thread in C++?
 14. Study about void pointer.
+15. What is Inline Function?
+16. Explain Friend Function.
 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________
@@ -89,5 +116,10 @@ OOPS Most Asked Interview Questions (Links):
 2. C++ Interview Questions - InterviewBit: https://www.interviewbit.com/cpp-interview-questions
 3. 30 OOPs Interview Questions and Answers (2025) - GFG: https://www.geeksforgeeks.org/oops-interview-questions
 4. OOPs Interview Questions - InterviewBit: https://www.interviewbit.com/oops-interview-questions
+
+
+
+
+
 
 
