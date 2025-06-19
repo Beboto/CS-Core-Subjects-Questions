@@ -17,7 +17,7 @@ C Interview Questions:
 15. Write the difference between macros and functions.
 16. Study about the memory allocation in C - Static and Dynamic.
 17. Tokens in C.
-18. Explain: malloc(), malloc().
+18. Explain: malloc(), calloc() and realloc().
 19. Difference between Local and Global variables.
 20. Preprocessor in C
 
