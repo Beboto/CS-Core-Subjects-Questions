@@ -94,7 +94,7 @@ Part - 2:
 
     Ex. Syntax: void operator+ (B &obj){           --> In main: B obj1, obj2;  obj1.a = 2, obj2.a = 3;  obj1 + obj2; 
 		     int val1 = this->a;
-		     int val2 = obj.b;
+		     int val2 = obj.a;
                      cout << (val2 - val1);
                 }
 
